@@ -22,7 +22,7 @@
 ✔️ Python (pandas, Numpy, scikit-learn, matplotlib seaborn)
 
 
-✔️ Machine Learning (LogisticRegression, Random Forest)
+✔️ Machine Learning (LogisticRegression)
 
 
 ✔️ Jupyter Notebook
