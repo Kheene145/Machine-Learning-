@@ -37,7 +37,7 @@
   ✔️ Examined featured distributions
 
 
- ✔️ Addressed class imbalance using SMOTE
+ ✔️ Addressed class imbalance using under-sampling technique
 
 
 
