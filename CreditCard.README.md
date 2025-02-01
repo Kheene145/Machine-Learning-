@@ -42,7 +42,26 @@
 
 
 ## 📈 Machine Learning Model Used
+| **Model**            |                       **Description**                                      |                                  **Advantages**                                      |       **Disadvantages**  |
+|----------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------------------------|
+| LogisticRegression   | A linear Classifier used as a baseline for binary classification problems|- Simple and easy to implement. -Provides probability for risk assessment. - Quick to train and predict|- Struggle with complex relationships in the data.- Less effective when data is not linearly separable.|
 
+
+## Model Evaluation
+
+| **Metric**            |                       **Description**                                      |                                  **Importance**                                      |
+|-----------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Accuracy              | Measures the overall percentage of correct predictions                     | Provides a basic indication of model perforamance                                    |
+|-----------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Precison              |         
+
+
+
+### Model Performance Comparison
+
+| **Model**            | **Accuracy**  |  **Precision**  |  **Recall**  |  **F1-Score**  |  **AUC-ROC**  |
+|----------------------|---------------|-----------------|--------------|----------------|---------------|
+| LogisticRegression   | Baseline      |  Baseline       |  Baseline    |  Baseline      |  Basel;ine    |
 
 
 ## Key Takeaways
@@ -57,3 +76,11 @@
 
 
 - To fully address the class imbalance, we applied undersampling technique
+
+
+
+## Conclusion
+- Logistic Regression served as the baseline model, giving us a starting point for performance evaluation.
+
+
+- Further improvements in model performance can be explored with advanced techniques or fine-tuning.
