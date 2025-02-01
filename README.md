@@ -1,2 +1,2 @@
 # Machine-Learning-
-100 days of ML
+30 days of ML
