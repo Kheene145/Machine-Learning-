@@ -51,9 +51,11 @@
 
 | **Metric**            |                       **Description**                                      |                                  **Importance**                                      |
 |-----------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Accuracy              | Measures the overall percentage of correct predictions                     | Provides a basic indication of model perforamance                                    |
-|-----------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Precison              |         
+| Accuracy              | Measures the overall percentage of correct predictions.                    | Provides a basic indication of model perforamance.                                   |
+| Precison              | The proportion of predicted fraud cases that are actually fraudulent.      | Helps minimize false positives(legitimate transactiobs labeled as fraud.             |
+| Recall                | The proportion of actual fraud cases that are correctly identified.        | Helps minimize false negatives (fraudulent transactions labeled as legitmate).       |
+| F1-Score              | The harmonic mean proportion and Recall.                                   | Provides balance between Precision and Recall, useful for imbalance dataset.         |
+| AUC-ROC               | The area under the receiver operating charactistics curve.                 | measure the model's ability to distinguish between fraudulent and legitmate transactions.| 
 
 
 
